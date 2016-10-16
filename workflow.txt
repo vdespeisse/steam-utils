@@ -1,0 +1,30 @@
+Quand tu commence :
+
+> git status
+  pour savoir si t'es up-to-date
+
+si c'est pas le cas
+
+> git pull
+
+ensuite tu travaille,
+quand t'as fini tes modif/t'es a une étape intermediaire fonctionnelle
+
+> git add .
+> git commit -m "description de ton commit"
+> git push
+
+
+Si on travail tout les 2 en meme temps sur un projet, va yavoir des conflit quand tu pull ou push
+Par exemple t'es entrain de faire des modif en local, pendant ce temps je fait un commit, quand tu fait
+git push il va te dire ya un probleme
+
+tu fait
+> git stash
+  ca va stash tes changements
+> git pull
+  tu pull la version uptodate
+> git stash pop
+  ca ecrit tes changement stashed dans le fichier
+
+Il essaie de merge tout seul mais si il ya des conflits il va te dire et faudra tu les resoude dans l'éditeur
