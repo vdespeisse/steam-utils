@@ -9,6 +9,12 @@ si c'est pas le cas
 
 ensuite tu travaille,
 quand t'as fini tes modif/t'es a une étape intermediaire fonctionnelle
+> git status
+  pour verifier que j'ai pas push des modif pdt que tu travaillais
+  si c'est le cas tu fait
+  > git pull
+
+Quand t'es up-to-date
 
 > git add .
 > git commit -m "description de ton commit"
