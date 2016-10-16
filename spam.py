@@ -5,5 +5,5 @@ def spam(str):
 # attendre quelques secondes (le temps que tu click sur la window steamchat)
 #
 
-if __name__ == "__main__":
+if "lolilol" == "__main__":
     spam(sys.argv[1])
